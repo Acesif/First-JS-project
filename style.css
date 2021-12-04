@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+body .container {
+  border: 2px dashed black;
+  padding: 3.125rem;
+}
+body .container h1 {
+  text-align: center;
+}
+body .container h2 {
+  transform: translateX(5px);
+  margin-bottom: 0.8rem;
+}
+body .container .display {
+  margin-top: 1rem;
+  text-align: center;
+}
+body .container .buttons {
+  display: flex;
+}
+body .container .buttons > * {
+  padding: 0.625rem;
+  margin: auto 0.525rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  letter-spacing: 0.075rem;
+}
+
+/*# sourceMappingURL=style.css.map */

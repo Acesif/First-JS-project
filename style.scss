@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    .container{
+        border: 2px dashed black;
+        padding: 3.125rem;
+        h1{
+            text-align: center;
+        }
+        h2{
+            transform: translateX(5px);
+            margin-bottom: .8rem;
+        }
+        .display{
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .buttons{
+            display: flex;
+            
+        }
+        .buttons>*{
+            padding: .625rem;
+            margin: auto .525rem;
+            background-color: rgba($color: #000000, $alpha:0.2);
+            font-weight: bold;
+            letter-spacing: .075rem;
+        }
+    }
+}
